@@ -24,6 +24,8 @@ async function callGroq(systemPrompt, userPrompt, maxTokens = 2048) {
     return completion.choices[0]?.message?.content || "Unable to generate response.";
 }
 
+
+
 // ==========================================
 // 1. AI CLINICAL NOTES GENERATOR (Doctor)
 // ==========================================
@@ -92,6 +94,9 @@ Current Symptoms: ${symptoms || 'Related to diagnosis'}`;
         res.status(500).json({ success: false, message: "Failed to generate treatment plan" });
     }
 };
+
+
+
 
 // ==========================================
 // 3. AI DRUG ALTERNATIVE SUGGESTER
