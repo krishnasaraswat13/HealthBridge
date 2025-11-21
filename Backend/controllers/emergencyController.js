@@ -1,3 +1,4 @@
+
 /**
  * Emergency SOS Controller
  * Handles emergency contacts and SOS alerts
