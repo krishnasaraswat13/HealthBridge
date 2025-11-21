@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useRef } from 'r
 import io from 'socket.io-client';
 import { useLocation } from 'react-router-dom'; 
 
-// Automatically use localhost in development, production URL when deployed
+
 const SOCKET_SERVER_URL = import.meta.env.DEV 
     ? 'http://localhost:5000' 
     : import.meta.env.VITE_SOCKET_URL;
