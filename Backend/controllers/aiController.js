@@ -1,6 +1,7 @@
 ﻿const Groq = require("groq-sdk");
 const Chat = require('../models/Chat');
 
+
 // --- DEBUG LOGGING ---
 const apiKey = process.env.GROQ_API_KEY;
 if (!apiKey) {
