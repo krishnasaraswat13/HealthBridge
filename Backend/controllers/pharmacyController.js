@@ -1,4 +1,5 @@
-﻿// HealthPath/backend/controllers/pharmacyController.js
+﻿
+// HealthPath/backend/controllers/pharmacyController.js
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const PharmacyUser = require('../models/PharmacyUser'); // User Auth Model
