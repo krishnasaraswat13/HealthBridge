@@ -1,3 +1,4 @@
+
 /**
  * Symptom Journal Controller
  * Allows patients to track symptoms over time for better diagnosis
