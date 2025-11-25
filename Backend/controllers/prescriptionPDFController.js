@@ -1,4 +1,5 @@
-﻿const Prescription = require('../models/Prescription');
+﻿
+const Prescription = require('../models/Prescription');
 const Doctor = require('../models/Doctor');
 const Patient = require('../models/Patient');
 const Appointment = require('../models/Appointment');
