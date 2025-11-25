@@ -1,3 +1,4 @@
+
 /**
  * Stream Chat Controller
  * Handles Stream.io chat channel creation and token generation
