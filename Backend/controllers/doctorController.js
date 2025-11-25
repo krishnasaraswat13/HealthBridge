@@ -1,3 +1,4 @@
+
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Doctor = require('../models/Doctor'); 
@@ -141,6 +142,7 @@ exports.getAllDoctors = async (req, res) => {
     }
 };
 
+
 // --- GET SINGLE DOCTOR PROFILE ---
 exports.getDoctorProfileById = async (req, res) => {
     try {
@@ -168,7 +170,6 @@ exports.getDoctorProfileById = async (req, res) => {
         res.status(500).send('Server Error');
     }
 };
-
 // --- NEW: ADD REVIEW & UPDATE RATING ---
 exports.addReview = async (req, res) => {
     try {
