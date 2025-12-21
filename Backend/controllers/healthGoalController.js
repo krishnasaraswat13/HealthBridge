@@ -349,4 +349,5 @@ exports.getGoalAnalytics = async (req, res) => {
         console.error('Error fetching analytics:', error);
         res.status(500).json({ success: false, message: 'Failed to fetch analytics' });
     }
+    
 };
