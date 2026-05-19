@@ -46,7 +46,7 @@ HealthPath addresses this by offering:
 - **APIs:** Google Maps API, GPT API  
 - **Deployment:** AWS / Azure / Heroku  
 
----
+----
 
 ##  Key Modules  
 1. **Patient Module** Symptom entry, AI diagnosis, consultation, medicine purchase, navigation.  
